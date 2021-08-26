@@ -8,8 +8,8 @@ Im just Testing it Out since im new to Github Pages...
 
 I use this since my School blocks it..., just keep it here since its easy for me to download...
 
-[Link](https://github.com/OPstriker/k-proxy)
+[Real Link](https://kproxy.com/downloads.jsp)
 
-Direct Download-
+Direct Download (GitHub)-
 
 [Download](https://github.com/OPstriker/k-proxy/raw/56c1920e7dda8c4d18de3910a475221c12b8f363/kproxyagent_windows.zip)

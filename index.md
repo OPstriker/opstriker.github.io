@@ -13,3 +13,7 @@ I use this since my School blocks it..., just keep it here since its easy for me
 Direct Download (GitHub)-
 
 [Download](https://github.com/OPstriker/k-proxy/raw/56c1920e7dda8c4d18de3910a475221c12b8f363/kproxyagent_windows.zip)
+
+##Registry Files-
+
+[Download](https://github.com/OPstriker/Regedit-Patches/raw/9138caa88a98c2614286e7fa9d7865706a6d43d8/Registry%20Patches.zip)

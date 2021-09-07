@@ -14,6 +14,10 @@ Direct Download (GitHub)-
 
 [Download](https://github.com/OPstriker/k-proxy/raw/56c1920e7dda8c4d18de3910a475221c12b8f363/kproxyagent_windows.zip)
 
+Chrome Extension-
+
+[Link](https://chrome.google.com/webstore/detail/kproxy-extension/gdocgbfmddcfnlnpmnghmjicjognhonm)
+
 ## Registry Files-
 
 Some Regesitry file's to enable Blocked Stuff on Restricted Computers-

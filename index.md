@@ -1,7 +1,7 @@
 ## OPstriker
 
 ### An idiot who loves to troll people...
-### Also someone who loves to bypass restricted content in school  
+### Also someone who loves to bypass restricted content in school.
 
 ## k-proxy
 

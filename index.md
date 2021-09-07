@@ -1,4 +1,6 @@
-## OPstriker
+## SchoolTool's (For People who Hate CIPA)
+
+Disclaimer : Many of The Stuff presented here May/May-not work for you, this is more of a personal Page for me to get quick access to links and other stuff. Its adviced not to Use/Follow These unless you know what your doing.
 
 ### An idiot who loves to troll people...
 ### Also someone who loves to bypass restricted content in school.

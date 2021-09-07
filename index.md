@@ -1,8 +1,7 @@
-## Welcome!, My Page lol
+## OPstriker
 
-### Sup, Welcome to my Page..., ill be updating this at Random Times at Most...
-
-### Im just Testing it Out since im new to Github Pages...
+### An idiot who loves to troll people...
+### Also someone who loves to bypass restricted content in school  
 
 ## k-proxy
 

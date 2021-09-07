@@ -7,11 +7,9 @@ Disclaimer : Many of The Stuff presented here May/May-not work for you, this is 
 ### An idiot who loves to troll people...
 ### Also someone who loves to bypass restricted content in school.
 
-## k-proxy
+## [k-proxy](https://kproxy.com/downloads.jsp)
 
 ### I use this since my School blocks it...,I just keep it here since its easy for me to download...
-
-[Real Link](https://kproxy.com/downloads.jsp)
 
 ### Direct Download (GitHub) -
 

@@ -7,7 +7,7 @@ Disclaimer : Many of The Stuff presented here May/May-not work for you, this is 
 
 ## k-proxy
 
-### I use this since my School blocks it..., just keep it here since its easy for me to download...
+### I use this since my School blocks it...,I just keep it here since its easy for me to download...
 
 [Real Link](https://kproxy.com/downloads.jsp)
 

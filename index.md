@@ -55,4 +55,8 @@ IEX(IWR https://raw.githubusercontent.com/OPstriker/PS-Script-s/main/Dis-Input.p
 ```
 IEX(IWR https://raw.githubusercontent.com/OPstriker/PS-Script-s/main/screen-lock-test.ps1 -UseBasicParsing); Lock-Screen -LockSeconds 4
 ```
+### Control Volume - 
+```
+IEX(IWR https://raw.githubusercontent.com/OPstriker/PS-Script-s/main/Set-Volume.ps1 -UseBasicParsing); Set-SoundVolume 99
+```
 This Page May Have Loads of Error's since I suck at english so avoid em pls lol...

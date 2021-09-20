@@ -25,7 +25,7 @@ Many of The Stuff presented here May/May-not work for you, this is more of a per
 
 ### Some Regesitry file's to enable Blocked Stuff on Restricted Computers -
 
-[Download](https://github.com/OPstriker/Regedit-Patches/raw/9138caa88a98c2614286e7fa9d7865706a6d43d8/Registry%20Patches.zip)
+[Download](https://github.com/OPstriker/Regedit-Patches/blob/8bc690a50fac7ae9f03b294f745fdb65800c2d6e/RPatch.zip?raw=true)
 
 ## ReverseShell (PowerShell) -
 

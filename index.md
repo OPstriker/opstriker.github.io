@@ -83,5 +83,9 @@ Set-MpPreference -DisableRealtimeMonitoring $true; Start-Sleep -millisecond 1500
 ```
 https://portal.azure.com/#blade/Microsoft_AAD_IAM/UserDetailsMenuBlade/Devices/userId/%3CUSER%20ID%3E/menuId/Devices
 ```
+### eh, LanSchool
+```
+msiexec /i "\\10.1.60.7\ImageShare\Apps\Lanschool\Student.msi" /qn /norestart ADVANCED_OPTIONS=1 CHANNEL=1039
+```
 
 This Page May Have Loads of Error's since I suck at english so avoid em pls lol...

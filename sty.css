@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Odin-Bold';
+    src: url(odin-rounded.bold.otf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Odin-light';
+    src: url(odin-rounded.light.otf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Odin-Regular';
+    src: url(odin-rounded.regular.otf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+body {
+    background-color: #141e30;
+}
+
+h1 {
+    text-align: center;
+    font-family: Odin-Bold;
+    font-size: 75px;
+    background: linear-gradient(#693645 0%,#f4e2d8 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+p {
+    text-align: center;
+    font-family: Odin-Regular;
+    font-size: 32px;
+    background-image: linear-gradient(to right, #64B5F6, #9C27B0);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.center {
+    text-align: center;
+}
+
+.grad {
+    font-family: Odin-Regular;
+    color: #141e30;
+    font-size: 24px;
+    border-radius: 4px;
+    background: linear-gradient(#693645 0%,#f4e2d8 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 60px;
+}
+
+.github {
+    font-family: Odin-Regular;
+    color: white;
+    font-size: x-large;
+    border-radius: 4px;
+    height: 50px;
+    width: 125px;
+    border: none;
+    margin: 50px;
+    background: linear-gradient(to right,#64B5F6, #9C27B0);
+}
+
+.github:hover {
+    cursor: pointer;
+}

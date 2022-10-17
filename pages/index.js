@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { IconMoonStars } from '@tabler/icons';
+import { IconMoonStars, IconSunHigh } from '@tabler/icons';
 import Image from 'next/image';
 import { useState } from 'react';
 
@@ -17,8 +17,8 @@ export default function Home() {
           <nav className='pt-10 mb-10 flex justify-between'>
             <h1 className="text-2xl dark:text-gray-200 pt-2">Welcome!</h1>
             <ul className='flex items-center'>
-              <li>
-                <IconMoonStars onClick={() => setDarkMode(!darkMode)} className="cursor-pointer dark:stroke-gray-200" />
+              <li onClick={() => setDarkMode(!darkMode)} className="cursor-pointer">
+                { darkMode ? <IconMoonStars className="stroke-gray-200"/> : <IconSunHigh />}
               </li>
               <li className="inline-flex justify-evenly">
                 <a className="inline-flex bg-github_bg text-gray-200 py-3 px-4 border-2  dark:border-gray-700 rounded-md ml-4 " href='https://github.com/OPstriker' target='_blank' rel="noopener noreferrer">
@@ -35,12 +35,18 @@ export default function Home() {
             <h2 className="text-3xl py-2 font-medium dark:text-gray-200">
               OPstriker
             </h2>
-            <h3 className="text-xl py-4 dark:text-gray-200">
-              A Self-Taught Dev, High-schooler, and Tech-Enthusiast.
+            <h3 className="text-xl py-4 dark:text-gray-200 max-w-xs mx-auto">
+              A Self-Taught Dev 👨‍💻, Highschooler 🏫, and Tech-Enthusiast🚀
             </h3>
-            <p className="dark:text-gray-200 max-w-3">
-              Geared and Aimed to Work with AI. Currently a C/C++ and a FullStack Dev. Working most of my time on Private Projects. Also a Notorious Cry-Baby :P
+            <p className="py-2 dark:text-gray-200 max-w-md mx-auto">
+              Geared and Aimed to Work with AI. Currently a C/C++ and a FullStack Dev. Working most of my time on Private Projects and also a Notorious Cry-Baby :P
             </p>
+          </div>
+        </section>
+        {/* Projects Page */}
+        <section>
+          <div className="text-2xl dark:text-gray-200">
+            My Projects
           </div>
         </section>
       </main>

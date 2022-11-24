@@ -18,3 +18,23 @@ a {
 * {
   box-sizing: border-box;
 }
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #21252B;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #2e3239;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color:#1b1d22;
+  }

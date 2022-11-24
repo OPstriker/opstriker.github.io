@@ -9,7 +9,8 @@ module.exports = {
     extend: {
       colors: {
         github_bg: "#24292D",
-        op_bg: "#21252B"
+        op_bg: "#21252B",
+        op_lt_bg: "#DEE4E7"
       },
     },
   },
